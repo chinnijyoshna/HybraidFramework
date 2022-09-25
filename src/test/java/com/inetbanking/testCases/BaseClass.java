@@ -80,16 +80,17 @@ public class BaseClass {
 
 }
 	
-	public String randomString() 
+	public String randomestring()
 	{
-		String generatedString=RandomStringUtils.randomAlpabet(8);
-	    return (generatedString);
+		String generatedstring=RandomStringUtils.randomAlphabetic(8);
+		return(generatedstring);
 	}
-      
-	public String randomNum() 
-	{
-		String generatedString2=RandomStringUtils.randomNumeric(4);
-	    return (generatedString2);
+	
+	public static String randomeNum() {
+		String generatedString2 = RandomStringUtils.randomNumeric(4);
+		return (generatedString2);
+	}
+	
 	
 }
-}
+
